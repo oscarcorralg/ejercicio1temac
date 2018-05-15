@@ -55,7 +55,7 @@ int
 main ()
 {
   //variable de tipo registro  
-  static numComplejo numeros[NUM_MAX];	// declaramos la variable numero1
+  numComplejo numeros[NUM_MAX];	// declaramos la variable numero1
 //  struct numComplejo numerob; // declaramos la variable numero
 
 
