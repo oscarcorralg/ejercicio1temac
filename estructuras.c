@@ -54,18 +54,21 @@ void iniarACero (numComplejo * pt);	// inicia a( 0,0) los numeros
 int
 main ()
 {
+// variables 
+  int i;			// contador ciclo for
   //variable de tipo registro  
   numComplejo numeros[NUM_MAX];	// declaramos la variable numero1
 //  struct numComplejo numerob; // declaramos la variable numero
 
 
   iniarACero (numeros);
-  printf ("\nNumeroa = %f + %fi\n\n", numeros[1].p_real,
-	  numeros[1].p_imaginaria);
-
-
+  // Comprobacion del registro 
+  for (i = 0; i < NUM_MAX; i++)
+    {
+      printf ("\nNumero[%d] = %.2f + %.2fi\n", i, numeros[i].p_real,
+	      numeros[i].p_imaginaria);
+    }
   return 0;
-
 }
 
 
@@ -91,5 +94,4 @@ iniarACero (numComplejo * pt)
       pt[i].p_imaginaria = 0.0;
     }
   return;
-
 }
