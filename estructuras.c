@@ -84,8 +84,12 @@ main ()
 void
 iniarACero (numComplejo * pt)
 {
-  pt->p_real = 0.0;
-  pt->p_imaginaria = 0.0;
+  int i;
+  for (i = 0; i < NUM_MAX; i++)
+    {
+      pt[1].p_real = 0.0;
+      pt[i].p_imaginaria = 0.0;
+    }
   return;
 
 }
