@@ -30,7 +30,10 @@
 
 typedef struct
 {
-  unsigned id_n;
+// se quita id_n por que no sirve de nada la idea era poner de identificador pero
+// creo que estaba equivocado ya que al declarar numeros con NUM_MAX 10 podemos 
+// almacenar 11 registros ¿ esto es asi verdad?
+  //unsigned id_n;
   float p_real;
   float p_imaginaria;
   float modulo;
@@ -90,7 +93,7 @@ iniarACero (numComplejo * pt)
   int i;
   for (i = 0; i < NUM_MAX; i++)
     {
-      pt[1].p_real = 0.0;
+      pt[i].p_real = 0.0;
       pt[i].p_imaginaria = 0.0;
     }
   return;
