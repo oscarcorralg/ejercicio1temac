@@ -1,16 +1,16 @@
 /******************************************************************************
-*@file:
-*Sipnosis
+*@file : estructuras
+*Sipnosis programa para resolver el ejercicio 1
 *Descripcion de la ejecucion del programa
 *Directivas del compilador
 *Lista de codigos de salida de la aplicacion
 *Dependencias funcionales
 *Lista de situaciones criticas
-*Organización
-*@autor/es:
-*Fecha:
-*@version: 
-*Lista de versiones:
+*Organización Universidad del Burgos
+*@autor/es: Oscar Corral Garcia
+*Fecha: 15/05/2018
+*@version: v 0.1 + iniarACero
+*Lista de versiones:v 0.1 version inicial 
 *Referencia a fuentes consultadas
 *Información de copyright del programa*
 *
